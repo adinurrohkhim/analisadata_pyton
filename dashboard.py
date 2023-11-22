@@ -20,9 +20,9 @@ st.write(
 tab1, tab2, tab3 = st.tabs(["FILE DATASET", "VISUALISASI", "CONCLUSION"])
  
 with tab1:
-    
+    csv_url = https://github.com/adinurrohkhim/analisadata_pyton/blob/0bd6b08fb78e4dc0dde59314b91af631c724375c/day.csv
     st.header("File dataset yang di gunakan dalam analisa")     
-    day_df=pd.read_csv('C:/Users/adinu/idcamp2023/main_data.csv')
+    day_df=pd.read_csv(csv_url)
     st.dataframe(day_df)
     
      
@@ -56,6 +56,8 @@ with tab1:
 
 with tab2:
     st.header("Pilihlah sumbe X dan Y") 
+
+
     def load_data(file_path):
         data = pd.read_csv(file_path)
         return data
@@ -65,7 +67,8 @@ with tab2:
         ax.set_xlabel(x_column)
         ax.set_ylabel(y_column)
         st.pyplot(fig)
-    uploaded_file = ('C:/Users/adinu/idcamp2023/day.csv')
+    csv_url = https://github.com/adinurrohkhim/analisadata_pyton/blob/0bd6b08fb78e4dc0dde59314b91af631c724375c/day.csv
+    uploaded_file = (csv_url)
     if uploaded_file is not None:
         data = load_data('C:/Users/adinu/idcamp2023/day.csv')
         x_column = st.selectbox('Pilih kolom untuk sumbu x', data.columns)
