@@ -91,7 +91,7 @@ with tab3:
     - pertanyaan 2 = Benarkah hari kerja dan hari libur berpengaruh terhadap jumlah pesewaan sepeda ?
     - - Pilihlah sumbu x 'holiday' , 'workingday'
     - - pilihlah sumbu y 'cnt ' 
-    - - pada menu VISUALISASI untuk menjawab perntayaan 1
+    - - pada menu VISUALISASI untuk menjawab perntayaan 2
    * Jumlah pesewaan sepeda selama weekday tidak terdapat perbedaan yang cukup signifikan. Untuk Jumlah pesewaan sepda pada liburan ( holiday ) cukup tinggi yaitu sebesar 3.214.244 orang dari pada ketika tidak libur .sedangkan untuk jumlah pesewaan sepeda per-Workday dalam kondisi libur dan mask . jumlahnya cukup signifikan dengan perbadingan jumlah ibur dibanding jumlah tidak libur sebesar 1.000.269 : 2.292.410 orang.
    
    *** Hal ini bisa di katakan Kondisi hari libur dan workday ( saat libur maupun masuk ) sangat mempengaruhi jumlah pesewaan sepeda
